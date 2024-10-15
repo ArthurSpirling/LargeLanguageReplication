@@ -77,7 +77,7 @@ This leads to the following typology of visions:
  
    <tr>  
     <td>  </td>
-    <td colspan="2">**Exact Replication Possible**</td>
+    <td colspan="2"> <b>Exact Replication Possible</b>  </td>
   </tr>
   <tr>
     <td> </td>
@@ -85,7 +85,7 @@ This leads to the following typology of visions:
     <td> Yes </td>
   </tr>
  <tr>
-    <td>**Fragile** </td>
+    <td><b>Fragile**</b> </td>
     <td> Language Models </td>
     <td> Deterministic Replication </td>
  </tr>
