@@ -77,12 +77,12 @@ This leads to the following typology of visions:
  
    <tr>  
     <td>  </td>
-    <td colspan="2"> <b>Exact Replication Possible</b>  </td>
+    <td colspan="2"> <b>Exact Replication Possible?</b>  </td>
   </tr>
   <tr>
     <td> </td>
-    <td> No </td>
-    <td> Yes </td>
+    <td> <b>No</b> </td>
+    <td> <b>Yes</b> </td>
   </tr>
  <tr>
     <td><b>Fragile</b> </td>
