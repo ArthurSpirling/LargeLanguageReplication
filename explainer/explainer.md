@@ -10,7 +10,7 @@ At most top scholarly journals today, when a researcher has a paper accepted, th
 
 At a high level, such practices contribute to "research transparency".  This is the idea that we can read what the authors said they did, and check they *really* did it.  In a narrow sense, it prevents fraud or terrible errors.  But it is much broader in spirit: it allows future researchers a useful starting point for building on prior efforts, including checking how different assumptions or methods might affect the robustness of the published results. It also encourages authors depositing such materials to "get it right" first time (i.e. to double-check their code actually does what they say it does). 
 
-At this point, it's helpful to clarify a very confusing definitional issue.  In our paper, and in this explainer, we are focused on "replication" which we define as the idea that
+At this point, it's helpful to clarify a very confusing definitional issue.  In our paper, and in this explainer, we are focused on **replication** which we define as the idea that
 
 > a scholar can take the materials from a given paper—its exact data, programming code, information on the operating system and environment used—and produce the same results as were reported in *that* paper.
 
