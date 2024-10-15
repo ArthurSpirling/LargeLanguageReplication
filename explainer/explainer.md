@@ -73,12 +73,22 @@ All these visions have strengths and weaknesses.  But we specifically think abou
 
 This leads to the following typology of visions: 
 
+<table>
+ 
+   <tr>  
+    <td> space </td>
+    <td colspan="2">Eaxct Replication Possible</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
 
-|               |    Exact Replication Possible   |
-| ------------- | ------------- | --------------- |
-|               |  No            | Yes  | 
-| **Fragile** | (d) Language Models      | (a)  |
-| **Robust**  |  (c)  |   (b)  |
+</table>
+
+
+
 
 
 
