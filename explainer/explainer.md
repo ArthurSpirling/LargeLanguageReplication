@@ -24,6 +24,28 @@ This is different to *reproducibility* which, as we use that term, means taking 
 
 Given that we have norms around replication, and we provide both carrots (free data hosting) and sticks (journals require verification pre-publication), what is the problem to be solved? In brief it is that there has been an explosion of interest and use of a new technology called "[Large Language Models](https://en.wikipedia.org/wiki/Large_language_model)" in social science, but without commensurate attention to the complications that these methods create for replication.  Consequently, in our view, almost nothing using these models and being published today is "replicable" to anything like the standard we have come to demand and expect.
 
+**Large Language Models** are as their name suggests. Working backwards they are: 
+- "models" insofar as they have contain an implicit set of assumptions which is used to produce estimates for something.  
+- "language models" insofar as the thing the model produces is language. Speaking very crudely, they can *predict* the best choice for the next word in a sequence.  So, for example, if the sequence was "He sat down for lunch and ate a []" the next word is more likely to be [sandwich] than [whole roast chicken] or [automobile].
+- "large language models" insofar as they do this---that is, they model/generate language---by using billions of parameters.  This means that are very complicated, and need to "see" lots of training data---written language, essentially---so they know how to map what has been written so far in the sentence to what might optimally come next.
+
+These (Large) Language Models (LMs) have proved remarkably helpful in social science research. It turns out they can do things like [code](https://arxiv.org/abs/2303.15056) manifestos into "left" or "right" ideologically camps.  They can also "converse" with subjects in experiments, and perhaps convince them of the wisdom of certain political positions. This save a lot of time and money.
+
+So what is the problem?  First, as noted above, these models are inherently very complicated. They have lots of parameters that interact with each other in unexpected and unexplainable ways.  This is obviously different to something like a linear regression where the form of the equation is simple, and we know exactly how the variables are included to predict the outcome. For an LM, even if you have access to all the underlying parameter estimates themselves (called the "weights" of which there might be billions), you still won't necessarily be able to understand (in a deep sense) how changing some inputs "leads" to different outputs.  But it's worse than this because generally we do **not** have access to the underlying mechanics of the model.  
+
+Second then, the problem is that the LMs most commonly used are *proprietary*.  For instance, products like chatGPT and GPT4 from OpenAI have this property. They are commercial and "closed" insofar as one cannot inspect *how* they work exactly. They contain a "sercret sauce"---the model and or the data they use, and or the techniques by which the parameters are updated---that is not available to those outside the organization.  One can, of course, experiment with the product such that we gain some understanding of what it is capable of and/or how it responds, but one can never know for sure.  It is truly a "black box" in that sense.  
+
+But it gets worse even than this: we know that companies selling LMs routinely make changes to the product on the "back end".  This means that the model response to a given problem is not constant *by design*.  In our example above, the model might return the best answer as [steak] sometimes, and [pizza] another time. Users cannot download and keep specific *versions* of the LM, so whatever the company wants to change, maintain or retire at a given time is what is available.  
+
+This matters because political scientists routinely report their "prompts"---the instructions they gave to a specific LM on a specific day---as their only replication materials.  For example, [Gilardi et al](https://arxiv.org/pdf/2303.15056) report the following for a particular task in which an LM must decide if a tweet is (politically) relevant or not:
+
+```
+For each tweet in the sample, follow these instructions:
+1. Carefully read the text of the tweet, paying close attention to details.
+2. Classify the tweet as either relevant (1) or irrelevant (0)
+Tweets should be coded as RELEVANT if they include POLITICAL CONTENT, as defined above.
+Tweets should be coded as IRRELEVANT if they do NOT include POLITICAL CONTENT, as defined above
+```
 
 
 
