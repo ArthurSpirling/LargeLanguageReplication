@@ -88,6 +88,8 @@ This leads to the following typology of visions:
     <td>Fragile </td>
     <td> Language Models </td>
     <td> Deterministic Replication </td>
+ </tr>
+ <tr>
       <td>Robust</td>
     <td> Stochastic Replication </td>
     <td> Rule-based </td>
