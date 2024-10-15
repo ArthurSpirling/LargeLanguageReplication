@@ -85,12 +85,12 @@ This leads to the following typology of visions:
     <td> Yes </td>
   </tr>
  <tr>
-    <td><b>Fragile**</b> </td>
+    <td><b>Fragile</b> </td>
     <td> Language Models </td>
     <td> Deterministic Replication </td>
  </tr>
  <tr>
-      <td>**Robust**</td>
+      <td><b>Robust</b></td>
     <td> Stochastic Replication </td>
     <td> Rule-based </td>
   </tr>
