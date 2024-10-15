@@ -137,7 +137,7 @@ Does this matter for downstream results?  In a sense it has to: if something is 
 
 A final point in this section is that one of the LMs, Gemini, simply would not work much of the time.  To say the results are therefore 'non-replicable' is an understatement---one cannot even use the same technique. 
 
-
+**tl;dr: the variance for LMs, especially proprietary ones, is high. Some tasks with some LMs cannot be replicated at all.  Open models with offline versioning are the exception**
 
 ## 5. Advice for Practitioners
 What follows from all this?  We have five suggestions:
