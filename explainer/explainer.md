@@ -8,9 +8,13 @@ At most top scholarly journals today, when a researcher has a paper accepted, th
 
 > will be verified to confirm that they do, in fact, reproduce the analytic results reported in the article. Publication in the American Journal of Political Science is contingent upon provision of complete verification materials and successful verification of their content.
 
-At a high level, such practices contribute to "research transparency".  This is the idea that we can see what authors did, and check they *really* did it.  In a narrow sense, it prevents fraud.  But it is much broader in spirit: it allows future researchers a useful starting point for building on prior efforts, including checking how different assumptions or methods might affect the robustness of the published results. It also encourages authors depositing such materials to "get it right" first time (i.e. to double-check their code actually does what they say it does). 
+At a high level, such practices contribute to "research transparency".  This is the idea that we can read what the authors said they did, and check they *really* did it.  In a narrow sense, it prevents fraud or terrible errors.  But it is much broader in spirit: it allows future researchers a useful starting point for building on prior efforts, including checking how different assumptions or methods might affect the robustness of the published results. It also encourages authors depositing such materials to "get it right" first time (i.e. to double-check their code actually does what they say it does). 
 
+At this point, it's helpful to clarify a very confusing definitional issue.  In our paper, and in this explainer, we are focused on "replication" which we define as the idea that
 
+> a scholar can take the materials from a given paper—its exact data, programming code, information on the operating system and environment used—and produce the same results as were reported in *that* paper.
+
+This is how grad students in political science are [taught](https://gking.harvard.edu/files/gking/files/replication.pdf) to use the term.  This is different to *reproducibility* which, as we use that term, means taking the same broad procedures of the original study to a new or independent dataset and seeing to what extent the original findings hold up.  The problem is that different fields use these terms in exactly opposite ways. So when, for example colleagues discuss the "[replication crisis](https://www.psychologytoday.com/us/basics/replication-crisis)" in Psychology, they are concerned about the inability to "reproduce" (in our terms) major results from the past today. 
 
 
 ## 2. The state of replication for Language Models (isn't good)
