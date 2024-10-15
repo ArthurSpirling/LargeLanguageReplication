@@ -138,5 +138,13 @@ Does this matter for downstream results?  In a sense it has to: if something is 
 A final point in this section is that one of the LMs, Gemini, simply would not work much of the time.  To say the results are therefore 'non-replicable' is an understatement---one cannot even use the same technique. 
 
 
-## 5. Advice for Practitioners
 
+## 5. Advice for Practitioners
+What follows from all this?  We have five suggestions:
+
+
+1. **Take replication seriously** Researchers and journals need to be aware that replication matters for LM work as much as anything else.  Don't allow a new/worse "replication crisis" to emerge. 
+2. **Consider open models that allow off-line versioning**.  LLaMA wasn't always the best performer, but it was very good and allowed almost *perfect* replication.  Consider this when coding in your own work.
+3. **Justify closed models if they must be used**.  Closed models are non-transparent, so [explain](https://www.nature.com/articles/s43588-023-00585-1.epdf?sharing_token=MzweryQ216mZhRFFWcZPM9RgN0jAjWel9jnR3ZoTv0PqiD0oRUy182GqZiF90Sm6fQqacfY_AtePs54IZ4YiSsQos1QKJefRb3mjojyQVC83mDj3jqR0B80bdJeedFcrZq9KIgpieI_OR_d3bhiCAxpOsZD3eZ1MnXWnFi6Uweg%3D) why we must pay this cost in your case. 
+4. **Work in an “anti-fragile” way**. If you must use closed models, try to reduce the variances in their outputs. Setting temperatures may help, but this is no panacea. 
+5. **Replicate Your Work**. Researchers should run their own routines multiple times, preferable over multiple days or weeks or months and be honest about the variance they observe.
