@@ -76,8 +76,8 @@ This leads to the following typology of visions:
 <table>
  
    <tr>  
-    <td> space </td>
-    <td colspan="2">Eaxct Replication Possible</td>
+    <td>  </td>
+    <td colspan="2">**Exact Replication Possible**</td>
   </tr>
   <tr>
     <td> </td>
@@ -85,12 +85,12 @@ This leads to the following typology of visions:
     <td> Yes </td>
   </tr>
  <tr>
-    <td>Fragile </td>
+    <td>**Fragile** </td>
     <td> Language Models </td>
     <td> Deterministic Replication </td>
  </tr>
  <tr>
-      <td>Robust</td>
+      <td>**Robust**</td>
     <td> Stochastic Replication </td>
     <td> Rule-based </td>
   </tr>
