@@ -26,9 +26,14 @@ Given that we have norms around replication, and we provide both carrots (free d
 
 ### Large Language Models
 Large Language Models are as their name suggests. Working backwards they are: 
-- "models" insofar as they have contain an implicit set of assumptions which is used to produce estimates for something.  
-- "language models" insofar as the thing the model produces is language. Speaking very crudely, they can *predict* the best choice for the next word in a sequence.  So, for example, if the sequence was "He sat down for lunch and ate a []" the next word is more likely to be [sandwich] than [whole roast chicken] or [automobile].
-- "large language models" insofar as they do this---that is, they model/generate language---by using billions of parameters.  This means that are very complicated, and need to "see" lots of training data---written language, essentially---so they know how to map what has been written so far in the sentence to what might optimally come next.
+- **models** insofar as they have contain an implicit set of assumptions which is used to produce estimates for something.  
+- **language models** insofar as the thing the model produces is language. Speaking very crudely, they can *predict* the best choice for the next word in a sequence.  So, for example, if the sequence was
+ 
+> He sat down for lunch and ate a []
+
+the next word is more likely to be [sandwich] than [whole roast chicken] or [automobile]
+
+- **large language models** insofar as they do this---that is, they model/generate language---by using billions of parameters.  This means that are very complicated, and need to "see" lots of training data---written language, essentially---so they know how to map what has been written so far in the sentence to what might optimally come next.
 
 These (Large) Language Models (LMs) have proved remarkably helpful in social science research. It turns out they can do things like [code](https://arxiv.org/abs/2303.15056) manifestos into "left" or "right" ideologically camps.  They can also "converse" with subjects in experiments, and perhaps convince them of the wisdom of certain political positions. This save a lot of time and money.
 
