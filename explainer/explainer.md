@@ -29,7 +29,7 @@ Large Language Models are as their name suggests. Working backwards they are:
 - **models** insofar as they have contain an implicit set of assumptions which is used to produce estimates for something.  
 - **language models** insofar as the thing the model produces is language. Speaking very crudely, they can *predict* the best choice for the next word in a sequence.  So, for example, if the sequence was
  
-> He sat down for lunch and ate a [    ]
+> He sat down for lunch and ate a [_____]
 
 the next word is more likely to be [sandwich] than [whole roast chicken] or [automobile]
 
