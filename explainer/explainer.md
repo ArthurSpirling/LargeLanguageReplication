@@ -4,3 +4,11 @@ Our paper has some technical parts, but the basic argument---and our evidence fo
 
 ## 1. Replication: what it means and what it is for
 
+## 2. The state of replication for Language Models (isn't good)
+
+## 3. A Typology of Replication Practices
+
+## 4. Experiments on LM Replication
+
+## 5. Advice for Practitioners
+
