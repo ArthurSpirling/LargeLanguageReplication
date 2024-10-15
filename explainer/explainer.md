@@ -37,7 +37,7 @@ Second then, the problem is that the LMs most commonly used are *proprietary*.  
 
 But it gets worse even than this: we know that companies selling LMs routinely make changes to the product on the "back end".  This means that the model response to a given problem is not constant *by design*.  In our example above, the model might return the best answer as [steak] sometimes, and [pizza] another time. Users cannot download and keep specific *versions* of the LM, so whatever the company wants to change, maintain or retire at a given time is what is available.  
 
-This matters because political scientists routinely report their "prompts"---the instructions they gave to a specific LM on a specific day---as their only replication materials.  For example, [Gilardi et al](https://arxiv.org/pdf/2303.15056) report the following for a particular task in which an LM must decide if a tweet is (politically) relevant or not:
+This matters because political scientists routinely report their "prompts"---the instructions they gave to a specific LM on a specific day---as their only replication materials.  For example, [Gilardi et al](https://arxiv.org/pdf/2303.15056) (S1.4, Task 2) report the following for a particular task in which an LM must decide if a tweet is (politically) relevant or not:
 
 ```
 For each tweet in the sample, follow these instructions:
