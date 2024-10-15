@@ -126,11 +126,12 @@ What did we find?  Very briefly:
 - crowdworkers are much *lower variance* on average than LMs. That is, they tend to not move around too much in terms of performance quality.
 - some LMs have much higher variance than others.  For example, GPT generally exhibits higher variance than LLaMA, and Gemini is often more variable than both.
 - the lowest variance occurs for the open-LLM (LLaMA) on the static task.  In fact, the results have essentially zero variance, and are "perfectly" replicable in that sense.
-<img align="right" src="variance.jpg" width=320 title="LM Variance Results">
+<img align="right" src="variance.jpg" width=350 title="LM Variance Results">
+
 The figure makes these points.  When the dots are to the left, variance is low.  To the right, variance is higher.  The rows just list the various combinations of tasks, types and models being tried for that iteration. 
 
 Does this matter for downstream results?  In a sense it has to: if something is measured with high variance, this will affect subsequent regressions using that measured item.  That's exactly what we see. We conducted a series of regressions using samples of GPT coded data and compared it with the same (sampled) regressions in the original paper which used crowdsourcing.  The variance of the coefficient estimates in the downstream regressions is much larger with LM coded variables than without.  And, consequently, the *p*-values tend to be different too. 
-<img align="right" src="downstream.jpg" width=320 title="LM Downstream Problems">
+<img align="right" src="downstream.jpg" width=350 title="LM Downstream Problems">
 
 A final point in this section is that one of the LMs, Gemini, simply would not work much of the time.  To say the results are therefore 'non-replicable' is an understatement---one cannot even use the same technique. 
 
