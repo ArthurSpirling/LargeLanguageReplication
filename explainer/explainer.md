@@ -109,13 +109,28 @@ The empirical core of our paper is seeing whether, in fact, we should worry abou
 
 1. do multiple common coding tasks
 - these include coding manifestos, and recording details from news stories
+- some tasks are *static* meaning the data to be coded (like the documents or events) is *exactly the same* each time. Some tasks are *dynamic* meaning they are a random sample from a larger dataset.  
 3. using several different Language Models
-- we used two 
+- we used two proprietary models, [Gemini](https://gemini.google.com/) and [GPT4](https://openai.com/index/gpt-4/); and one open model, [LLaMa 3](https://ai.meta.com/blog/meta-llama-3/)
 4. over a relatively long time period
+- we repeated the same tasks once a month for six months (so far)
+5. we do all the steps above but for crowdworkers too
+- they do the same tasks, over the same period. 
 
-Then, we compare the models in terms of their performance *variance*.  This latter point is important: while we 
+Then, we compare the models and the crowd in terms of their performance and performance *variance*.  This latter point is important: while we do care about how well the crowd and the models can do the tasks, we also care about how much the answers they give *vary* between runs.  Put crudely, the more they vary the less "replicable" the results are.  Note that we would expect and hope that the *static* tasks in particular return very consistent results over time. 
 
+### Results
 
+What did we find?  Very briefly: 
+- crowdworkers are quite accurate, but not as accurate as the top performing LMs.  This is inline with other work on coding problems.
+- crowdworkers are much *lower variance* on average than LMs. That is, they tend to not move around too much in terms of performance quality.
+- some LMs have much higher variance than others.  For example, GPT generally exhibits higher variance than LLaMA, and Gemini is often more variable than both.
+- the lowest variance occurs for the open-LLM (LLaMA) on the static task.  In fact, the results have essentially zero variance, and are "perfectly" replicable in that sense.
+The figure makes these points.  When the dots are to the left, variance is low.  To the right, variance is higher.  The rows just list the various combinations of tasks, types and models being tried for that iteration. 
+
+Does this matter for downstream results?  In a sense it has to: if something is measured with high variance, this will affect subsequent regressions using that measured item.  That's exactly what we see. We conducted a series of regressions using samples of GPT coded data and compared it with the same (sampled) regressions in the original paper which used crowdsourcing.  The variance of the coefficient estimates in the downstream regressions is much larger with LM coded variables than without.  And, consequently, the *p*-values tend to be different too. 
+
+A final point in this section is that one of the LMs, Gemini, simply would not work much of the time.  To say the results are therefore 'non-replicable' is an understatement---one cannot even use the same technique. 
 
 
 ## 5. Advice for Practitioners
