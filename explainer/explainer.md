@@ -80,11 +80,19 @@ This leads to the following typology of visions:
     <td colspan="2">Eaxct Replication Possible</td>
   </tr>
   <tr>
-    <td>1</td>
-    <td>2</td>
-    <td>3</td>
+    <td> </td>
+    <td> No </td>
+    <td> Yes </td>
   </tr>
-
+ <tr>
+    <td>Fragile </td>
+    <td> Language Models </td>
+    <td> Deterministic Replication </td>
+      <td>Robust</td>
+    <td> Stochastic Replication </td>
+    <td> Rule-based </td>
+  </tr>
+ 
 </table>
 
 
