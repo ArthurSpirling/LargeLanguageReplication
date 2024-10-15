@@ -75,6 +75,7 @@ This leads to the following typology of visions:
 
 
 |               |    Exact Replication Possible   |
+| ------------- | ------------- | 
 |               |  No            | Yes  | 
 | ------------- | ------------- | ------------- | 
 | **Fragile** | (d) Language Models      | (a)  |
