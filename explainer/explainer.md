@@ -22,7 +22,7 @@ This is different to *reproducibility* which, as we use that term, means taking 
 
 ## 2. The state of replication for Language Models (isn't good)
 
-Given that we have norms around replication, and we provide both carrots (free data hosting) and sticks (journals require verification pre-publication), what is the problem to be solved? In brief it is that there has been an explosion of interest and use of a new technology called "Large Language Models" in social science, but without commensurate attention to the complications that these methods create for replication.  Consequently, in our view, almost nothing using these models and being published today is "replicable" to anything like the standard we have come to demand and expect.
+Given that we have norms around replication, and we provide both carrots (free data hosting) and sticks (journals require verification pre-publication), what is the problem to be solved? In brief it is that there has been an explosion of interest and use of a new technology called "[Large Language Models](https://en.wikipedia.org/wiki/Large_language_model)" in social science, but without commensurate attention to the complications that these methods create for replication.  Consequently, in our view, almost nothing using these models and being published today is "replicable" to anything like the standard we have come to demand and expect.
 
 
 
