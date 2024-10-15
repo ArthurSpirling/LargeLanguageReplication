@@ -14,10 +14,16 @@ At this point, it's helpful to clarify a very confusing definitional issue.  In 
 
 > a scholar can take the materials from a given paper—its exact data, programming code, information on the operating system and environment used—and produce the same results as were reported in *that* paper.
 
-This is how grad students in political science are [taught](https://gking.harvard.edu/files/gking/files/replication.pdf) to use the term.  This is different to *reproducibility* which, as we use that term, means taking the same broad procedures of the original study to a new or independent dataset and seeing to what extent the original findings hold up.  The problem is that different fields use these terms in exactly opposite ways. So when, for example colleagues discuss the "[replication crisis](https://www.psychologytoday.com/us/basics/replication-crisis)" in Psychology, they are concerned about the inability to "reproduce" (in our terms) major results from the past today. 
+This is how grad students in political science are [taught](https://gking.harvard.edu/files/gking/files/replication.pdf) to use the term.  
 
+This is different to *reproducibility* which, as we use that term, means taking the same broad procedures of the original study to a new or independent dataset and seeing to what extent the original findings hold up.  The problem is that different fields use these terms in exactly opposite ways. So when, for example colleagues discuss the "[replication crisis](https://www.psychologytoday.com/us/basics/replication-crisis)" in Psychology, they are concerned about the inability to "reproduce" (in our terms) major results from the past today.
+
+**tl;dr: replication---the idea that you can take published work's data and code and verify you get the same result as the original author---is a vital part of today's quantitative social science practice.**
 
 ## 2. The state of replication for Language Models (isn't good)
+
+
+
 
 ## 3. A Typology of Replication Practices
 
