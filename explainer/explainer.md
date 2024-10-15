@@ -107,14 +107,14 @@ Of course, how much of an issue this all is in practice is debatable.  In the ne
 ## 4. Experiments on LM Replication
 The empirical core of our paper is seeing whether, in fact, we should worry about the issues we raised above.  The basic design was to...
 
-1. do multiple common coding tasks
+1. **do multiple common coding tasks**
 - these include coding manifestos, and recording details from news stories
 - some tasks are *static* meaning the data to be coded (like the documents or events) is *exactly the same* each time. Some tasks are *dynamic* meaning they are a random sample from a larger dataset.  
-3. using several different Language Models
+2. **using several different Language Models**
 - we used two proprietary models, [Gemini](https://gemini.google.com/) and [GPT4](https://openai.com/index/gpt-4/); and one open model, [LLaMa 3](https://ai.meta.com/blog/meta-llama-3/)
-4. over a relatively long time period
+3. **over a relatively long time period**
 - we repeated the same tasks once a month for six months (so far)
-5. we do all the steps above but for crowdworkers too
+4. **we do all the steps above but for crowdworkers too**
 - they do the same tasks, over the same period. 
 
 Then, we compare the models and the crowd in terms of their performance and performance *variance*.  This latter point is important: while we do care about how well the crowd and the models can do the tasks, we also care about how much the answers they give *vary* between runs.  Put crudely, the more they vary the less "replicable" the results are.  Note that we would expect and hope that the *static* tasks in particular return very consistent results over time. 
