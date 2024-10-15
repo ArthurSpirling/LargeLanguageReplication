@@ -18,7 +18,7 @@ This is how grad students in political science are [taught](https://gking.harvar
 
 This is different to *reproducibility* which, as we use that term, means taking the same broad procedures of the original study to a new or independent dataset and seeing to what extent the original findings hold up.  The problem is that different fields use these terms in exactly opposite ways. So when, for example colleagues discuss the "[replication crisis](https://www.psychologytoday.com/us/basics/replication-crisis)" in Psychology, they are concerned about the inability to "reproduce" (in our terms) major results from the past today.
 
-**tl;dr: replication---the idea that you can take published work's data and code and verify you get the same result as the original author---is a vital part of today's quantitative social science practice.**
+**tl;dr: replication---the idea that you can take published work's data and code and verify you get the same result as the original author---is a vital part of today's quantitative social science practice. It is central to research transparency.**
 
 ## 2. The state of replication for Language Models (isn't good)
 
