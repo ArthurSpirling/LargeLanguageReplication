@@ -64,6 +64,24 @@ Readers may reasonably respond that perhaps this doesn't matter---that running t
 
 ## 3. A Typology of Replication Practices
 
+Above we noted that "replication" is confusing because the same term is used with a different meaning in other fields.  But even *within* political science, there are what we call different *visions* of replication.  There are, to our mind, three main types of practices: 
+1. **deterministic**.  Here the idea is that one can simply download the author's data and code, and run it again.  And one should see *exactly* the results that previous author presented. This is probably the most traditional or conventional understanding of replication. 
+2. **stochastic**.  This is a more recent understanding of the term, and relies primarily on crowdsourcing. The idea, at least as [discussed in political science](https://kenbenoit.net/pdfs/Crowd_sourced_data_coding_APSR.pdf), is to reproduce the data *itself*.  So, on a given coding task, one asks a crowdworking service (like Amazon Mechanical Turk) to provide workers for simple component pieces of the project---say, placing a manifesto as conservative or liberal.
+3. **rule-based**.  This is probably the oldest vision of replication, and mostly just means defining one's decisions simply and clearly.  For example, listing off what US states one considers to be in the `South` for dummy variable coding.
+
+All these visions have strengths and weaknesses.  But we specifically think about the problem along two axes: first, in terms of whether *exact* replication is possible. Put simply: can I get exactly the same results as you if I follow this procedure? And the second axes is in terms of whether the replication method is *fragile* or not.  Put simply: can I depart from the particular method or code you used and expect to "replicate" what you did nonetheless?
+
+This leads to the following typology of visions: 
+
+
+|               |    Exact Replication Possible   |
+|               |  No            | Yes  | 
+| ------------- | ------------- | ------------- | 
+| **Fragile** | (d) Language Models      | (a)  |
+| **Robust**  |  (c)  |   (b)  |
+
+
+
 ## 4. Experiments on LM Replication
 
 ## 5. Advice for Practitioners
