@@ -39,7 +39,7 @@ Large Language Models are as their name suggests. Working backwards they are...
 
 the next word is more likely to be [`sandwich`] than [`whole roast chicken`] or [`automobile`]
 
-- **large language models** insofar as they do this---that is, they model/generate language---by using billions of parameters.  This means that are very complicated, and need to "see" lots of training data---written language, essentially---so they know how to map what has been written so far in the sentence to what might optimally come next.
+- **large language models** insofar as they do this---that is, they model/generate language---by using billions of parameters.  This means they are very complicated, and need to "see" lots of training data---written language, essentially---so they know how to map what has been written so far in the sentence to what might optimally come next.
 
 These (Large) Language Models (LMs) have proved remarkably helpful in social science research. It turns out they can do things like [code](https://arxiv.org/abs/2303.15056) manifestos into "left" or "right" ideologically camps.  They can also "converse" with subjects in experiments, and perhaps [help](https://www.pnas.org/doi/10.1073/pnas.2311627120) [convince them](https://www.tandfonline.com/doi/full/10.1080/00323187.2024.2335471) of the wisdom of certain political positions. This save a lot of time and money.
 
