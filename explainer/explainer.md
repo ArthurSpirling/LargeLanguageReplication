@@ -46,7 +46,7 @@ These (Large) Language Models (LMs) have proved remarkably helpful in social sci
 ### The Problem
 So what is the problem?  
 
-First, as noted above, these models are inherently very complicated. They have lots of parameters that interact with each other in unexpected and unexplainable ways. The figure to the right gives a basic "[transformer](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))" schematic. <img align="right" src="transformer.png" width=250 title="Basic transformer setup">
+First, as noted above, these models are inherently very complicated. They have lots of parameters that interact with each other in unexpected and unexplainable ways. The figure to the right gives a basic "[transformer](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))" schematic. <img align="right" src="transformer.png" width=330 title="Basic transformer setup">
 This is obviously different to something like a linear regression where the form of the equation is simple, and we know exactly how the variables are included to predict the outcome. For an LM, even if you have access to all the underlying parameter estimates themselves (called the "weights" of which there might be billions), you still won't necessarily be able to understand (in a deep sense) how changing some inputs "leads" to different outputs.  But it's worse than this because generally we do **not** have access to the underlying mechanics of the model.  
 
 Second then, the problem is that the LMs most commonly used are *proprietary*.  For instance, products like chatGPT and GPT4 from OpenAI have this property. They are commercial and "closed" insofar as one cannot inspect *how* they work exactly. They contain a "sercret sauce"---the model and or the data they use, and or the techniques by which the parameters are updated---that is not available to those outside the organization.  One can, of course, experiment with the product such that we gain some understanding of what it is capable of and/or how it responds, but one can never know for sure.  It is truly a "black box" in that sense.  
@@ -131,7 +131,7 @@ Then, we compare the models and the crowd in terms of their performance and perf
 ### Results
 
 What did we find?  Very briefly: 
-<img align="right" src="variance.jpg" width=400 title="LM Variance Results">
+<img align="right" src="variance.jpg" width=450 title="LM Variance Results">
 
 - crowdworkers are quite accurate, but not as accurate as the top performing LMs.  This is inline with other work on coding problems.
 - crowdworkers are much *lower variance* on average than LMs. That is, they tend to not move around too much in terms of performance quality.
@@ -142,7 +142,7 @@ The figure makes these points.  When the dots are to the left, variance is low. 
 
 Does this matter for downstream results?  In a sense it has to: if something is measured with high variance, this will affect subsequent regressions using that measured item.  That's exactly what we see. We conducted a series of regressions using samples of GPT coded data and compared it with the same (sampled) regressions in the original paper which used crowdsourcing.  The variance of the coefficient estimates in the downstream regressions is much larger with LM coded variables than without.  And, consequently, the *p*-values tend to be different too. 
 
-<img align="right" src="downstream.jpg" width=400 title="LM Downstream Problems">
+<img align="right" src="downstream.jpg" width=450 title="LM Downstream Problems">
 
 A final point in this section is that one of the LMs, Gemini, simply would not work much of the time.  To say the results are therefore 'non-replicable' is an understatement---one cannot even use the same technique. 
 
