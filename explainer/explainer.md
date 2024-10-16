@@ -108,9 +108,9 @@ This leads to the following typology of visions:
 
 The point we make in the paper is that LMs (top left) have the weaknesses of other replication methods, without their strengths.  For instance, like deterministic "code + data" replication they are *fragile*.  That is, the language model must be exactly the same between runs, and as we noted this is very hard to acheive especially for proprietary systems.  But LMs also do not facilitate exact replication even if you use what is nominally the same product.  This is partly due to the fact that the models are inherently variable, but also because there are back-end changes by the programming teams that serve them.  So in this sense, they are like crowdsourcing methods, but without the relative low dependence on a particular program or system that such methods usually show. 
 
-Of course, how much of an issue this all is in practice is debatable.  In the next section, we'll show it's troubling, and often severe. 
+Of course, how much of an issue this all is in practice is debatable.  In the next section, we'll show it's troubling, and often severely so. 
 
-**tl;dr: LMs have unique and troubling combinations of weaknesses when it comes to replication.  They are not "just like "human coders". **
+**tl;dr: LMs have unique and troubling combinations of weaknesses when it comes to replication.  They are not "just like "human coders".**
 
 
 ## 4. Experiments on LM Replication
