@@ -1,6 +1,12 @@
 # Replication for Language Models: Non-Technical Explainer
 
-Our paper has some technical parts, but the basic argument---and our evidence for that argument---is  simple. Here we give a non-technical account of our project, the questions we answer and how we go about doing that.  The intended audience is social scientists who are interested in "AI" for their research tasks, but who perhaps have less training in using language models than they would like. Below each section you will find a "too long, didn't read" summary. 
+Our paper has some technical parts, but the basic argument---and our evidence for that argument---is  simple. Here we give a non-technical account of our project, the questions we answer and how we go about doing that.  The intended audience is social scientists who are interested in "AI" for their research tasks, but who perhaps have less training in using language models than they would like. Below each section you will find a "too long, didn't read" summary. If you want something even shorter, here is the bottom line:
+
+1. Replication---the ability to reproduce a previous author's findings *exactly*, given their materials---is vital for scientific integrity.
+2. Almost all Large Language Model (LM) work currently being published is not held to this standard, and does not meet it.
+3. To the extent that LM replication is comparable to other visions of that term in political science, the LM case has special combined weaknesses that should make us especially nervous
+4. This matters: LMs are not consistent over time, even on *exactly* the same tasks---so many findings cannot be replicated even on their "own terms"
+5. Researchers need to get serious about what replication for LMs means.
 
 ## 1. Replication: what it means and what it is for
 
