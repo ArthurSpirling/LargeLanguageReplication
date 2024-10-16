@@ -120,7 +120,7 @@ The empirical core of our paper is seeing whether, in fact, we should worry abou
 - these include coding manifestos, and recording details from news stories
 - some tasks are *static* meaning the data to be coded (like the documents or events) is *exactly the same* each time. Some tasks are *dynamic* meaning they are a random sample from a larger dataset.  
 2. **using several different Language Models**
-- we used two proprietary models, [Gemini](https://gemini.google.com/) and [GPT4](https://openai.com/index/gpt-4/); and one open model, [LLaMa 3](https://ai.meta.com/blog/meta-llama-3/)
+- we used two proprietary models, [Gemini](https://gemini.google.com/) and [GPT4](https://openai.com/index/gpt-4/); and one open model, [LLaMa 2](https://www.llama.com/llama2/)
 3. **over a relatively long time period**
 - we repeated the same tasks once a month for six months (so far)
 4. **we do all the steps above but for crowdworkers too**
