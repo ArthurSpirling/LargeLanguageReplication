@@ -31,8 +31,8 @@ This is different to *reproducibility* which, as we use that term, means taking 
 Given that we have norms around replication, and we provide both carrots (free data hosting) and sticks (journals require verification pre-publication), what is the problem to be solved? In brief it is that there has been an explosion of interest and use of a new technology called "[Large Language Models](https://en.wikipedia.org/wiki/Large_language_model)" in social science, but without commensurate attention to the complications that these methods create for replication.  Consequently, in our view, almost nothing using these models and being published today is "replicable" to anything like the standard we have come to demand and expect.
 
 ### Large Language Models
-Large Language Models are as their name suggests. Working backwards they are: 
-- **models** insofar as they have contain an implicit set of assumptions which is used to produce estimates for something.  
+Large Language Models are as their name suggests. Working backwards they are... 
+- **models** insofar as they have contain an implicit set of assumptions that is used to produce estimates for something.  
 - **language models** insofar as the thing the model produces is language. Speaking very crudely, they can *predict* the best choice for the next word in a sequence.  So, for example, if the sequence was
  
 > He sat down for lunch and ate a [_____]
